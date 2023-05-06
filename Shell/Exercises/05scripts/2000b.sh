@@ -1,0 +1,6 @@
+#2000b - Да се напише shell скрипт, който приканва потребителя да въведе низ (име) и изпечатва "Hello, низ".
+
+#!/bin/bash
+
+read -p "What's your name?" name
+echo "Hello, ${name}"
